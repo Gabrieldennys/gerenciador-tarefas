@@ -4,3 +4,4 @@ target/
 .vscode/
 data/
 HELP.md
+.tools/

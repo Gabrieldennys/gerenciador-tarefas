@@ -39,3 +39,9 @@ mvn spring-boot:run
 
 ## Códigos HTTP
 200 (ok), 201 (criado), 204 (excluído), 400 (dados inválidos), 404 (não encontrado), 422 (regra de negócio violada).
+
+## Interface web
+
+A interface está em `src/main/resources/static` e é servida pela própria aplicação Spring Boot. Com Java 17 e Maven instalados, execute `mvn spring-boot:run` nesta pasta e abra http://localhost:8080. Cadastre uma pessoa antes de criar uma tarefa; categorias são opcionais. A interface usa a API existente e respeita as regras de negócio descritas acima.
+
+O banco H2 está configurado em memória: os dados são apagados ao reiniciar a aplicação. Para disponibilizar o site na internet, é necessário hospedar a aplicação Java; publicar o repositório no GitHub não inicia o servidor.
