@@ -1,4 +1,4 @@
-# Gerenciador de Tarefas.
+# Gerenciador de Tarefas
 
 API REST desenvolvida com Spring Boot para a disciplina de Backend.
 
